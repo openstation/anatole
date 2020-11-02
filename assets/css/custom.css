@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Noto Sans SC', sans-serif;
+    src: url("../fonts/Noto_Sans_SC/NotoSansSC-Regular.otf");
+}
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+.page-top {
+    width: 80%;
+    height: 80px;
+}
+
+.page-top .nav {
+    font-size: 14px;
+}
+
+.sidebar {
+    width: 20%;
+}
+
+.content {
+    width: 80%;
+}

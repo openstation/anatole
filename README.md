@@ -37,7 +37,7 @@ hugo server --themesDir ../..
 ```
 
 ## Quick Start
-1. Add the repository into your Hugo Project repository as a submodule: `git submodule add https://github.com/lxndrblz/anatole.git themes/anatole`.
+1. Add the repository into your Hugo Project repository as a submodule: `git submodule add https://github.com/openstation/anatole.git themes/anatole`.
 2. Configure your `config.toml`. Feel free to copy the demo `config.toml` and some content from the exampleSite. 
 3. Build your site with `hugo serve` and admire the result at `http://localhost:1313/`.
 
@@ -92,7 +92,7 @@ Please also note that returning visitors will see the theme that was last displa
 ```toml
 [params]
 displayMode = "dark"
-``` 
+```
 
 ### Multilingual support
 Anatole supports multilingual page setups. All you need to do is to add the languages to your 'config.toml'. For each Language you can set the custom options like title or description. It's important to include a `LanguageName`, as it will be displayed in the main menu.  
